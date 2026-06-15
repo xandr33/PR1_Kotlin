@@ -1,0 +1,120 @@
+Microsoft Windows [Version 10.0.19045.3803]
+(c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+C:\Users\PublicUser303>md Adoniev
+
+C:\Users\PublicUser303>cd Adoniev
+
+C:\Users\PublicUser303\Adoniev>git clone https://github.com/xandr33/demo.git
+Cloning into 'demo'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (5/5), done.
+
+C:\Users\PublicUser303\Adoniev>cd demo
+
+C:\Users\PublicUser303\Adoniev\demo>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        123.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\PublicUser303\Adoniev\demo>git add 123.txt
+
+C:\Users\PublicUser303\Adoniev\demo>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   123.txt
+
+
+C:\Users\PublicUser303\Adoniev\demo>git commit
+[main 8d9fc33] New commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 123.txt
+
+C:\Users\PublicUser303\Adoniev\demo>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        222.txt
+        333.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\PublicUser303\Adoniev\demo>git add .
+
+C:\Users\PublicUser303\Adoniev\demo>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   222.txt
+        new file:   333.txt
+
+
+C:\Users\PublicUser303\Adoniev\demo>git .gi
+git: '.gi' is not a git command. See 'git --help'.
+
+The most similar command is
+        gui
+
+C:\Users\PublicUser303\Adoniev\demo>git commit -m "Новый комит"
+[main 43d2c85] Новый комит
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 222.txt
+ create mode 100644 333.txt
+
+C:\Users\PublicUser303\Adoniev\demo>git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\PublicUser303\Adoniev\demo>git push
+info: please complete authentication in your browser...
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 575 bytes | 575.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/xandr33/demo.git
+   a0b96cc..43d2c85  main -> main
+
+C:\Users\PublicUser303\Adoniev\demo>cd Adoniev
+Системе не удается найти указанный путь.
+
+C:\Users\PublicUser303\Adoniev\demo>cd :
+Синтаксическая ошибка в имени файла, имени папки или метке тома.
+
+C:\Users\PublicUser303\Adoniev\demo>cd..
+
+C:\Users\PublicUser303\Adoniev>git clone https://github.com/xandr33/PR1_Kotlin.git
+Cloning into 'PR1_Kotlin'...
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (5/5), done.
+
+C:\Users\PublicUser303\Adoniev>cd PR1_Kotlin
+
+C:\Users\PublicUser303\Adoniev\PR1_Kotlin>
+
+C:\Users\PublicUser303\Adoniev\PR1_Kotlin>
