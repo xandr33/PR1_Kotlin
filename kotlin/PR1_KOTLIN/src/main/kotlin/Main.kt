@@ -1,3 +1,5 @@
+import kotlin.math.hypot
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
@@ -7,7 +9,7 @@ fun main() {
     println("Enter height: ")
         val hide = readln().toDouble()
 
-   val index = mas / hide
+   val index = mas / (hide * hide)
 
     println("The body mass index is = $index")
 }
