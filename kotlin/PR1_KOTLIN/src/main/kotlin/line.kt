@@ -1,0 +1,5 @@
+fun main(){
+    println("line 1")
+    println("line 2")
+    println("line 3")
+}
